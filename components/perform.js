@@ -35,16 +35,10 @@ const useStyles = makeStyles((theme) => ({
      },
      title:{
       fontWeight:'bold',
-      [theme.breakpoints.down("sm")]: {
-         fontSize:'2.3rem'
-       },
      },
      discTitle:{
        fontWeight:'bold',
        color:theme.palette.primary.main,
-       [theme.breakpoints.down("sm")]: {
-         fontSize:'2.5rem'
-       },
      },
      divider:{
       backgroundColor: 'white',
@@ -57,22 +51,6 @@ const useStyles = makeStyles((theme) => ({
          padding: '0.7%',
        },
     },
-      
-     card:{
-        backgroundColor:'transparent',
-     },
-     iconCard:{
-        fontSize: '3rem',
-        color: '#facd3d',
-     },
-     titleCard:{
-        fontSize: '1.7rem',
-        fontWeight: 'bold',
-        color: 'white',
-     },
-     disCard:{
-        color:'white',
-     },
      imgs:{
         marginTop: '15%',
     },

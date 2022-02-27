@@ -32,16 +32,10 @@ const useStyles = makeStyles((theme) => ({
      },
      title:{
         fontWeight:'bold',
-        [theme.breakpoints.down("sm")]: {
-           fontSize:'2.3rem'
-         },
        },
        discTitle:{
          fontWeight:'bold',
          color:theme.palette.primary.main,
-         [theme.breakpoints.down("sm")]: {
-           fontSize:'2.5rem'
-         },
        },
        divider:{
          backgroundColor: 'white',
@@ -63,11 +57,9 @@ const useStyles = makeStyles((theme) => ({
           },
      },
      iconCard:{
-        fontSize: '3rem',
         color: theme.palette.primary.main,
      },
      titleCard:{
-        fontSize: '1.7rem',
         fontWeight: 'bold',
         color: 'white',
      },
@@ -91,8 +83,8 @@ const Services=()=> {
             <Grid container spacing={2} >
                 <Grid item sm={12} md={3}>
                    <Card className={classes.card}>
-                       <GiTargeting className={classes.iconCard}/>
-                       <Typography className={classes.titleCard} gutterBottom>QUICK</Typography>
+                       <Typography variant="h3" className={classes.iconCard}><GiTargeting/></Typography>
+                       <Typography variant="h4" className={classes.titleCard} gutterBottom>QUICK</Typography>
                        <Typography variant="body1" gutterBottom className={classes.disCard}>
                            Quick Service with highest degree of precision
                            ensures On time delivery, Every time Speedy Road
@@ -102,8 +94,8 @@ const Services=()=> {
                 </Grid>
                 <Grid item sm={12} md={3}>
                    <Card className={classes.card}>
-                       <GiMatchTip className={classes.iconCard}/>
-                       <Typography className={classes.titleCard} gutterBottom>QUALIFIED</Typography>
+                       <Typography variant="h3" className={classes.iconCard}><GiMatchTip/></Typography>
+                       <Typography variant="h4" className={classes.titleCard} gutterBottom>QUALIFIED</Typography>
                        <Typography variant="body1" gutterBottom className={classes.disCard}>
                         They are recruited from the best technical
                          institutes supported by Toyota , are constantly
@@ -113,8 +105,8 @@ const Services=()=> {
                 </Grid>
                 <Grid item sm={12} md={3}>
                    <Card className={classes.card}>
-                       <FaGraduationCap className={classes.iconCard}/>
-                       <Typography className={classes.titleCard} gutterBottom>QUALITY</Typography>
+                       <Typography variant="h3" className={classes.iconCard}><FaGraduationCap/></Typography>
+                       <Typography variant="h4" className={classes.titleCard} gutterBottom>QUALITY</Typography>
                        <Typography variant="body1" gutterBottom className={classes.disCard}>
                          A quality vehicle deserves a quality service.
                          At Toyota, Quality check is inherent part of
@@ -124,8 +116,8 @@ const Services=()=> {
                 </Grid>
                 <Grid item sm={12} md={3}>
                    <Card className={classes.card}>
-                       <GiSofa className={classes.iconCard}/>
-                       <Typography className={classes.titleCard}>Comfort</Typography>
+                       <Typography variant="h3" className={classes.iconCard}><GiSofa /></Typography>
+                       <Typography variant="h4" className={classes.titleCard}>Comfort</Typography>
                        <Typography variant="body1" gutterBottom className={classes.disCard}>
                          A quality vehicle deserves a quality service.
                          At Toyota, Quality check is inherent part of each

@@ -33,16 +33,12 @@ const useStyles = makeStyles((theme) => ({
      },
      title:{
       fontWeight:'bold',
-      [theme.breakpoints.down("sm")]: {
-         fontSize:'2.3rem'
-       },
      },
      discTitle:{
        fontWeight:'bold',
        flexDirection: 'row-reverse',
        color:theme.palette.primary.main,
        [theme.breakpoints.down("sm")]: {
-         fontSize:'2.5rem',
          textAlign: 'end',
        },
      },
@@ -59,18 +55,6 @@ const useStyles = makeStyles((theme) => ({
      },
      card:{
         backgroundColor:'transparent',
-     },
-     iconCard:{
-        fontSize: '3rem',
-        color: '#facd3d',
-     },
-     titleCard:{
-        fontSize: '1.7rem',
-        fontWeight: 'bold',
-        color: 'white',
-     },
-     disCard:{
-        color:'white',
      },
      btn:{
         display:'flex',

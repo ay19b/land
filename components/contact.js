@@ -54,16 +54,15 @@ const useStyles = makeStyles((theme) => ({
         color:'white',
         marginLeft: '3%',
      },
+	 list:{
+		 listStyle: 'none',
+         display: 'flex',
+	 },
      iconList:{
-         fontSize:'1.4rem',
          marginRight:'2%',
      },
      card:{
         backgroundColor:'transparent',
-     },
-     iconCard:{
-        fontSize: '3rem',
-        color: '#facd3d',
      },
      titleCard:{
         fontSize: '1.7rem',
@@ -107,11 +106,11 @@ const Contact =()=> {
                         <Typography variant="subtitle1" component="div">115 NW Oregon Ave, #7 </Typography>
                         <Typography variant="subtitle1" component="div">Bend, OR 97703</Typography>
                         <br />
-                        <div>
-                            <GrFacebookOption  className={classes.iconList}/>
-                            <AiOutlineTwitter className={classes.iconList}/>
-                            <AiOutlineInstagram className={classes.iconList}/>
-                            <AiFillYoutube className={classes.iconList}/>
+                        <div className={classes.list}>
+                            <div className={classes.iconList}><Typography variant="h6"><GrFacebookOption /></Typography></div>
+							<div className={classes.iconList}><Typography variant="h6"><AiOutlineTwitter /></Typography></div>
+							<div className={classes.iconList}><Typography variant="h6"><AiOutlineInstagram /></Typography></div>
+							<div className={classes.iconList}><Typography variant="h6"><AiFillYoutube /></Typography></div>
                         </div>    
                     </li>
                 </List>

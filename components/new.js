@@ -15,9 +15,8 @@ const useStyles = makeStyles((theme) => ({
    item:{
     fontWeight:'bold',
     height:'100%',
-    paddingTop:"3%",
-    
- },
+    paddingTop:"3%", 
+   },
  top:{
     color: 'white',
     display: 'flex',
@@ -26,23 +25,14 @@ const useStyles = makeStyles((theme) => ({
  },
  title:{
    fontWeight:'bold',
-   [theme.breakpoints.down("sm")]: {
-      fontSize:'2.3rem'
-    },
   },
   discTitle:{
     fontWeight:'bold',
     color:theme.palette.primary.main,
-    [theme.breakpoints.down("sm")]: {
-      fontSize:'2.5rem'
-    },
   },
   extDiscTitle:{
    fontWeight:'bold',
    color:"white",
-   [theme.breakpoints.down("sm")]: {
-     fontSize:'2.2rem'
-   },
  },
 
   divider:{
