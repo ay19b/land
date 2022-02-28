@@ -70,13 +70,13 @@ const Perform=()=> {
             
             <Grid container className={classes.imgs} spacing={1}>
                 <Grid item xs={12} sm={4}>
-                   <Image src={one}/>
+                   <Image src={one} alt='one'/>
                 </Grid>
                 <Grid item xs={12} sm={4}>
-                  <Image src={two}/>
+                  <Image src={two} alt='two' />
                 </Grid>
                 <Grid item xs={12} sm={4}>
-                  <Image src={three}/>
+                  <Image src={three} alt='three' />
                 </Grid>
             </Grid>
             

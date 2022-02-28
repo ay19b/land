@@ -17,16 +17,16 @@ const Inside=()=> {
         <section className={classes.section}>
             <Grid container>
                 <Grid item sm={12} md={6}>
-                   <Image src={one} />
+                   <Image src={one} alt='one'/>
                 </Grid>
                 <Grid item sm={12} md={6}>
-                  <Image src={two}/>
+                  <Image src={two} alt='two'/>
                 </Grid>
                 <Grid item sm={12} md={6}>
-                  <Image src={three}/>
+                  <Image src={three} alt='three'/>
                 </Grid>
                 <Grid item sm={12} md={6}>
-                  <Image src={four}/>
+                  <Image src={four} alt='four'/>
                 </Grid>
             </Grid>
         </section>

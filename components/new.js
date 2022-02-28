@@ -79,7 +79,7 @@ const New=()=> {
                 Toyota is proud to offer Service Experience,
                 an assurance of Quick Service by Qualified Manpower
                 & Inbuil Quality of Toyota Genuine Parts for a joyful
-                ownership experience. Toyota's Service is a completely
+                ownership experience. Toyota Service is a completely
                 standardized Service process ensured through Evolutionary
                 systems & new age tools to ensure a hassle free service 
                 experience & quickly respond to all customer needs.
