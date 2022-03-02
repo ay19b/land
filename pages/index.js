@@ -8,7 +8,7 @@ import Perform from '../components/perform'
 import Safety from '../components/safety'
 import Services from '../components/services'
 import New from '../components/new'
-import { theme } from './theme';
+import { theme } from '../components/theme';
 import { AppBar, Box, Container, CssBaseline, ThemeProvider, Toolbar, Typography,responsiveFontSizes } from '@material-ui/core';
 
 
