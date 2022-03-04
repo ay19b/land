@@ -10,6 +10,7 @@ const useStyles = makeStyles((theme) => ({
        backgroundRepeat: "no-repeat",
        backgroundPosition: 'center',
        backgroundSize: 'cover',
+	   backgroundColor: 'black',
        height:820, 
     },
     container:{
