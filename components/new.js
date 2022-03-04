@@ -6,6 +6,7 @@ const useStyles = makeStyles((theme) => ({
        backgroundImage: "url(../images/car.png)",
        backgroundRepeat: "no-repeat",
        backgroundPosition: 'center',
+       backgroundColor:'black',
        height:720,
        [theme.breakpoints.down("xs")]: {
         height: 1000,
