@@ -1,4 +1,4 @@
-import {Divider, makeStyles, Typography,Container} from '@material-ui/core'
+import {makeStyles, Typography,Container} from '@material-ui/core'
 
 const useStyles = makeStyles((theme) => ({
    sectionHome:{
@@ -50,17 +50,7 @@ const useStyles = makeStyles((theme) => ({
       textAlign: 'end',
     },
   },
-   divider:{
-      backgroundColor: 'white',
-      padding: '0.5%',
-      width:'40%',
-      marginRight: '30%',
-      [theme.breakpoints.down("xs")]: {
-         marginRight: '0%',
-         width:'70%',
-         padding: '0.7%',
-       },
-   },
+   
  }));
 const Header=()=>{
     const classes = useStyles();
@@ -70,7 +60,6 @@ const Header=()=>{
             <Container className={classes.item}>
                <div className={classes.top}>
                  <Typography variant="h3" component="div" className={classes.title}>THE</Typography>
-                 <Divider className={classes.divider}/>
                </div>
                <Typography variant="h2" component="div" display="block" className={classes.discTitle}>CONQUEROR </Typography>
                <Typography variant="h4" component="div" display="block" className={classes.extDiscTitle}>OF The WORLD</Typography>
