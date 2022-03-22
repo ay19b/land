@@ -1,8 +1,7 @@
-import React from 'react'
-import {Divider,makeStyles,Typography,Card,Container,Button} from '@material-ui/core'
-import {GiTargeting,GiSofa,GiMatchTip} from 'react-icons/gi'
-import {GrCertificate} from 'react-icons/gr'
-import {FaGraduationCap} from 'react-icons/fa'
+import { makeStyles} from '@material-ui/core'
+
+
+
 
 const useStyles = makeStyles((theme) => ({
     sectionSer:{
@@ -10,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
        backgroundRepeat: "no-repeat",
        backgroundPosition: 'center',
        backgroundSize: 'cover',
-	   backgroundColor: 'black',
+	     backgroundColor: 'black',
        height:820, 
     },
     container:{
@@ -66,28 +65,11 @@ const useStyles = makeStyles((theme) => ({
         color:'white',
         marginLeft: '-3%',
     },
+    DivBtn:{
+      background:'#facd3d',
+      padding:'1%',
+      width:'75%'
+    },
   }));
 
-const Exterior = ()=> {
-    const classes = useStyles();
-    return (
-        <section className={classes.sectionSer}>
-          <Container className={classes.container}> 
-           <div className={classes.item}>  
-            <div className={classes.top}>
-                 <Typography variant="h3" component="div" className={classes.title}>EXTERIOR</Typography>
-                 <Divider className={classes.divider}/>
-            </div>
-            <Typography variant="h2" component="div" display="block" className={classes.discTitle}>NEW GRILLE AND HOOD DESIGN</Typography>
-            <div className={classes.btn}>
-                <Button variant="text" style={{color:'white'}}>Read More</Button>
-                <Divider style={{background:'#facd3d',padding:'1%',width:'75%'}}/>
-            </div>
-           </div>  
-            
-          </Container>  
-        </section>
-    )
-}
-
-export default Exterior
+export default useStyles

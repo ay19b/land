@@ -1,16 +1,12 @@
-import {Divider,makeStyles,Typography,Card,Container,Grid,Button} from '@material-ui/core'
+import {Divider,Typography,Card,Container,Grid,Button} from '@material-ui/core'
 import Image from 'next/image'
-import one from '../public/images/six one.jpg'
-import two from '../public/images/six two.jpg'
-import three from '../public/images/six three.jpg'
-import four from '../public/images/six four.jpg'
+import one from '../../public/images/six one.jpg'
+import two from '../../public/images/six two.jpg'
+import three from '../../public/images/six three.jpg'
+import four from '../../public/images/six four.jpg'
+import useStyles from './style';
 
 
-const useStyles = makeStyles((theme) => ({
-    section:{
-        height:'auto',
-    },
-  }));
 const Inside=()=> {
     const classes = useStyles();
     return (

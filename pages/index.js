@@ -1,15 +1,14 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Contact from '../components/contact'
-import Exterior from '../components/exterior'
-import Header from '../components/header'
-import Inside from '../components/inside'
-import Perform from '../components/perform'
-import Safety from '../components/safety'
-import Services from '../components/services'
-import New from '../components/new'
-import { theme } from '../components/theme';
-import { AppBar, Box, Container, CssBaseline, ThemeProvider, Toolbar, Typography,responsiveFontSizes } from '@material-ui/core';
+import Contact from '../components/contact/contact'
+import Exterior from '../components/exterior/exterior'
+import Header from '../components/header/header'
+import Inside from '../components/inside/inside'
+import Perform from '../components/perform/perform'
+import Safety from '../components/safety/safety'
+import Services from '../components/services/services'
+import New from '../components/new/new'
+import { theme } from './theme';
+import { ThemeProvider,responsiveFontSizes } from '@material-ui/core';
 
 
 let Theme = responsiveFontSizes(theme);
