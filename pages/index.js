@@ -7,7 +7,7 @@ import Perform from '../components/perform/perform'
 import Safety from '../components/safety/safety'
 import Services from '../components/services/services'
 import New from '../components/new/new'
-import { theme } from './theme';
+import { theme } from '../utils/theme';
 import { ThemeProvider,responsiveFontSizes } from '@material-ui/core';
 
 
