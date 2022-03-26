@@ -34,7 +34,8 @@ const useStyles = makeStyles((theme) => ({
        },
        discTitle:{
          fontWeight:'bold',
-         float: 'inline-end',
+         flexDirection: 'row-reverse',
+         display: 'flex',
          color:theme.palette.primary.main,
        },
        divider:{

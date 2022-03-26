@@ -42,16 +42,20 @@ const useStyles = makeStyles((theme) => ({
     title:{
      fontWeight:'bold',
      color:'white',
+     flexDirection: 'row-reverse',
+     display: 'flex',
     },
     discTitle:{
       fontWeight:'bold',
-      float: 'inline-end',
+      flexDirection: 'row-reverse',
+      display: 'flex',
       color:theme.palette.primary.main,
     },
     extDiscTitle:{
      fontWeight:'bold',
      color:"white",
-     float: 'inline-end',
+     flexDirection: 'row-reverse',
+     display: 'flex',
      [theme.breakpoints.down("sm")]: {
        textAlign: 'end',
      },
