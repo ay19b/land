@@ -30,6 +30,7 @@ const useStyles = makeStyles((theme) => ({
        height:'100%',
        justifyContent:'center',
        paddingTop:"10%",
+       float: 'inline-end',
     },
     top:{
        color: 'white',
