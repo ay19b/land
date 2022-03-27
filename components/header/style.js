@@ -25,12 +25,11 @@ const useStyles = makeStyles((theme) => ({
     item:{
        display: 'flex',
        flexDirection: 'column',
-       alignItems: 'end',
        fontWeight:'bold',
        height:'100%',
        justifyContent:'center',
        paddingTop:"10%",
-       float: 'inline-end',
+       textAlign: 'end',
     },
     top:{
        color: 'white',
@@ -42,20 +41,14 @@ const useStyles = makeStyles((theme) => ({
     title:{
      fontWeight:'bold',
      color:'white',
-     flexDirection: 'row-reverse',
-     display: 'flex',
     },
     discTitle:{
       fontWeight:'bold',
-      flexDirection: 'row-reverse',
-      display: 'flex',
       color:theme.palette.primary.main,
     },
     extDiscTitle:{
      fontWeight:'bold',
      color:"white",
-     flexDirection: 'row-reverse',
-     display: 'flex',
      [theme.breakpoints.down("sm")]: {
        textAlign: 'end',
      },

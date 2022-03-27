@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     item:{
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'end',
+        textAlign: 'end',
         fontWeight:'bold', 
         justifyContent:'center',
         paddingTop:"6%",
@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
      },
      discTitle:{
        fontWeight:'bold',
-       flexDirection: 'row-reverse',
+       textAlign: 'end',
        color:theme.palette.primary.main,
        [theme.breakpoints.down("sm")]: {
          textAlign: 'end',
@@ -45,8 +45,8 @@ const useStyles = makeStyles((theme) => ({
     divider:{
         backgroundColor: 'white',
         padding: '0.5%',
-        width: '30%',
-        marginRight: '10%',
+        width: '40%',
+        marginRight: '4%',
         [theme.breakpoints.down("xs")]: {
            padding: '0.7%',
            marginRight: '3%',
